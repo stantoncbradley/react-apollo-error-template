@@ -1,46 +1,27 @@
 import React, { Component } from 'react';
 import { gql, graphql } from 'react-apollo';
+import Test from './Test';
 
 class App extends Component {
   render() {
-    const { data: { loading, people } } = this.props;
     return (
       <main>
         <header>
-          <h1>Apollo Client Error Template</h1>
+          <h1>Store not clearing/refetching when unmounted/remounted</h1>
           <p>
-            This is a template that you can use to demonstrate an error in Apollo Client.
-            Edit the source code and watch your browser window reload with the changes.
+            We need to reset our cache when the user logs out
           </p>
           <p>
-            The code which renders this component lives in <code>./src/App.js</code>.
+            Currently the data isn't cleared when the user logs out.
           </p>
           <p>
-            The GraphQL schema is in <code>./src/graphql/schema</code>.
-            Currently the schema just serves a list of people with names and ids.
+            resetStore doesn't work because our server returns a 404 when user id is not included in request.
           </p>
         </header>
-        {loading ? (
-          <p>Loading…</p>
-        ) : (
-          <ul>
-            {people.map(person => (
-              <li key={person.id}>
-                {person.name}
-              </li>
-            ))}
-          </ul>
-        )}
+        <Test />
       </main>
     );
   }
 }
 
-export default graphql(
-  gql`{
-    people {
-      id
-      name
-    }
-  }`,
-)(App)
+export default App;
