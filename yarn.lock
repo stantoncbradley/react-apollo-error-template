@@ -111,9 +111,9 @@ anymatch@^1.3.0:
     arrify "^1.0.0"
     micromatch "^2.1.5"
 
-apollo-client@^1.0.0-rc.2:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/apollo-client/-/apollo-client-1.0.1.tgz#efcbe1e9bd6c6e01beb016eec0f7a40df41b4d77"
+apollo-client@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/apollo-client/-/apollo-client-1.0.2.tgz#4355bd49d53a1489bc91d9f56d5b3d0ffe33fb3c"
   dependencies:
     graphql "^0.9.1"
     graphql-anywhere "^3.0.1"
@@ -858,7 +858,7 @@ babel-register@^6.16.0, babel-register@^6.24.0:
     mkdirp "^0.5.1"
     source-map-support "^0.4.2"
 
-babel-runtime@6.22.0, babel-runtime@^6.11.6, babel-runtime@^6.18.0, babel-runtime@^6.22.0, babel-runtime@^6.9.1:
+babel-runtime@6.22.0, babel-runtime@^6.18.0, babel-runtime@^6.22.0, babel-runtime@^6.9.1:
   version "6.22.0"
   resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-6.22.0.tgz#1cf8b4ac67c77a4ddb0db2ae1f74de52ac4ca611"
   dependencies:
@@ -947,10 +947,6 @@ boom@2.x.x:
   resolved "https://registry.yarnpkg.com/boom/-/boom-2.10.1.tgz#39c8918ceff5799f83f9492a848f625add0c766f"
   dependencies:
     hoek "2.x.x"
-
-bootstrap@3:
-  version "3.3.7"
-  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-3.3.7.tgz#5a389394549f23330875a3b150656574f8a9eb71"
 
 brace-expansion@^1.0.0:
   version "1.1.6"
@@ -1130,10 +1126,6 @@ clap@^1.0.9:
   resolved "https://registry.yarnpkg.com/clap/-/clap-1.1.3.tgz#b3bd36e93dd4cbfb395a3c26896352445265c05b"
   dependencies:
     chalk "^1.1.3"
-
-classnames@^2.2.5:
-  version "2.2.5"
-  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.5.tgz#fb3801d453467649ef3603c7d61a02bd129bde6d"
 
 clean-css@4.0.x:
   version "4.0.10"
@@ -1611,10 +1603,6 @@ dom-converter@~0.1:
   resolved "https://registry.yarnpkg.com/dom-converter/-/dom-converter-0.1.4.tgz#a45ef5727b890c9bffe6d7c876e7b19cb0e17f3b"
   dependencies:
     utila "~0.3"
-
-dom-helpers@^3.2.0:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/dom-helpers/-/dom-helpers-3.2.1.tgz#3203e07fed217bd1f424b019735582fc37b2825a"
 
 dom-serializer@0:
   version "0.1.0"
@@ -2324,11 +2312,7 @@ graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.1.9:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/graceful-readlink/-/graceful-readlink-1.0.1.tgz#4cafad76bc62f02fa039b2f94e9a3dd3a391a725"
 
-graphql-anywhere@^2.0.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/graphql-anywhere/-/graphql-anywhere-2.2.0.tgz#652c3fa23a4a6cfeb98817512fb48100b97f3d5c"
-
-graphql-anywhere@^3.0.1:
+graphql-anywhere@^3.0.0, graphql-anywhere@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/graphql-anywhere/-/graphql-anywhere-3.0.1.tgz#73531db861174c8f212eafb9f8e84944b38b4e5a"
 
@@ -2600,7 +2584,7 @@ interpret@^0.6.4:
   version "0.6.6"
   resolved "https://registry.yarnpkg.com/interpret/-/interpret-0.6.6.tgz#fecd7a18e7ce5ca6abfb953e1f86213a49f1625b"
 
-invariant@^2.1.0, invariant@^2.2.0, invariant@^2.2.1, invariant@^2.2.2:
+invariant@^2.2.0, invariant@^2.2.1, invariant@^2.2.2:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.2.tgz#9e1f56ac0acdb6bf303306f338be3b204ae60360"
   dependencies:
@@ -3186,10 +3170,6 @@ jsx-ast-utils@^1.0.0, jsx-ast-utils@^1.3.1:
   resolved "https://registry.yarnpkg.com/jsx-ast-utils/-/jsx-ast-utils-1.4.0.tgz#5afe38868f56bc8cc7aeaef0100ba8c75bd12591"
   dependencies:
     object-assign "^4.1.0"
-
-keycode@^2.1.2:
-  version "2.1.8"
-  resolved "https://registry.yarnpkg.com/keycode/-/keycode-2.1.8.tgz#94d2b7098215eff0e8f9a8931d5a59076c4532fb"
 
 kind-of@^3.0.2:
   version "3.1.0"
@@ -4274,12 +4254,12 @@ rc@^1.1.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-apollo@1.0.0-rc.2:
-  version "1.0.0-rc.2"
-  resolved "https://registry.yarnpkg.com/react-apollo/-/react-apollo-1.0.0-rc.2.tgz#be76f3643b2c34802a58b631b3fed3d766eb9c66"
+react-apollo@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/react-apollo/-/react-apollo-1.0.1.tgz#1d9a2a7f0609f32e0278492324a6bf38bbbddb1f"
   dependencies:
-    apollo-client "^1.0.0-rc.2"
-    graphql-anywhere "^2.0.0"
+    apollo-client "^1.0.2"
+    graphql-anywhere "^3.0.0"
     graphql-tag "^1.3.1"
     hoist-non-react-statics "^1.2.0"
     invariant "^2.2.1"
@@ -4290,20 +4270,6 @@ react-apollo@1.0.0-rc.2:
     object-assign "^4.0.1"
   optionalDependencies:
     react-dom "0.14.x || 15.* || ^15.0.0"
-
-react-bootstrap@^0.30.8:
-  version "0.30.8"
-  resolved "https://registry.yarnpkg.com/react-bootstrap/-/react-bootstrap-0.30.8.tgz#4ceca8e138ce2351228c4a58d59db00c003ca9c0"
-  dependencies:
-    babel-runtime "^6.11.6"
-    classnames "^2.2.5"
-    dom-helpers "^3.2.0"
-    invariant "^2.2.1"
-    keycode "^2.1.2"
-    react-overlays "^0.6.12"
-    react-prop-types "^0.4.0"
-    uncontrollable "^4.0.1"
-    warning "^3.0.0"
 
 react-dev-utils@^0.4.2:
   version "0.4.2"
@@ -4324,21 +4290,6 @@ react-dev-utils@^0.4.2:
     fbjs "^0.8.1"
     loose-envify "^1.1.0"
     object-assign "^4.1.0"
-
-react-overlays@^0.6.12:
-  version "0.6.12"
-  resolved "https://registry.yarnpkg.com/react-overlays/-/react-overlays-0.6.12.tgz#a079c750cc429d7db4c7474a95b4b54033e255c3"
-  dependencies:
-    classnames "^2.2.5"
-    dom-helpers "^3.2.0"
-    react-prop-types "^0.4.0"
-    warning "^3.0.0"
-
-react-prop-types@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/react-prop-types/-/react-prop-types-0.4.0.tgz#f99b0bfb4006929c9af2051e7c1414a5c75b93d0"
-  dependencies:
-    warning "^3.0.0"
 
 react-scripts@0.8.5:
   version "0.8.5"
@@ -5137,12 +5088,6 @@ uid-number@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/uid-number/-/uid-number-0.0.6.tgz#0ea10e8035e8eb5b8e4449f06da1c730663baa81"
 
-uncontrollable@^4.0.1:
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/uncontrollable/-/uncontrollable-4.0.3.tgz#06ec76cb9e02914756085d9cea0354fc746b09b4"
-  dependencies:
-    invariant "^2.1.0"
-
 uniq@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/uniq/-/uniq-1.0.1.tgz#b31c5ae8254844a3a8281541ce2b04b865a734ff"
@@ -5262,12 +5207,6 @@ walker@~1.0.5:
   dependencies:
     makeerror "1.0.x"
 
-warning@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/warning/-/warning-3.0.0.tgz#32e5377cb572de4ab04753bdf8821c01ed605b7c"
-  dependencies:
-    loose-envify "^1.0.0"
-
 watch@~0.10.0:
   version "0.10.0"
   resolved "https://registry.yarnpkg.com/watch/-/watch-0.10.0.tgz#77798b2da0f9910d595f1ace5b0c2258521f21dc"
@@ -5372,11 +5311,11 @@ whatwg-encoding@^1.0.1:
   dependencies:
     iconv-lite "0.4.13"
 
-whatwg-fetch@1.0.0:
+whatwg-fetch@1.0.0, whatwg-fetch@>=0.10.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-1.0.0.tgz#01c2ac4df40e236aaa18480e3be74bd5c8eb798e"
 
-whatwg-fetch@>=0.10.0, whatwg-fetch@^2.0.0:
+whatwg-fetch@^2.0.0:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-2.0.3.tgz#9c84ec2dcf68187ff00bc64e1274b442176e1c84"
 
